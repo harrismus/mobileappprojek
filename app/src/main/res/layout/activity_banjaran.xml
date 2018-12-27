@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundcoverhome"
+    tools:context=".Banjaran">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="27dp"
+        android:text="@string/Banjaran"
+        android:textColor="@android:color/black"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="247dp"
+        android:layout_height="62dp"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/buttontwo"
+        android:onClick="goToBintang"
+        android:text="@string/Bintang" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="247dp"
+        android:layout_height="62dp"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="369dp"
+        android:background="@drawable/buttontwo"
+        android:onClick="goToTamaAbu"
+        android:text="@string/Banjaran4" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="247dp"
+        android:layout_height="62dp"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="301dp"
+        android:background="@drawable/buttontwo"
+        android:onClick="goToCrocker"
+        android:text="@string/Banjaran3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="247dp"
+        android:layout_height="62dp"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="227dp"
+        android:background="@drawable/buttontwo"
+        android:onClick="goToTahan"
+        android:text="@string/Banjaran2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="247dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="157dp"
+        android:background="@drawable/buttontwo"
+        android:onClick="goToTitiwangsa"
+        android:text="@string/Banjaran1" />
+
+</RelativeLayout>

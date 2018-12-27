@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "920762804036",
+    "firebase_url": "https://bentukmukabumi.firebaseio.com",
+    "project_id": "bentukmukabumi",
+    "storage_bucket": "bentukmukabumi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920762804036:android:62f5f87a6b1c9eec",
+        "android_client_info": {
+          "package_name": "com.example.merg.bentukmukabumi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920762804036-12rikgov2vre8agtker684oc6bjphk81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb4G6mrYfFLZHYHhvjHmvrXV2fcyuzG74"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

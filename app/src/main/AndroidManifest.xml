@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.merg.bentukmukabumi">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-configuration android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Banjaran" />
+        <activity android:name=".PilihanBelajar" />
+        <activity android:name=".PilihanModul" />
+        <activity android:name=".Titiwangsa" />
+        <activity android:name=".Tahan" />
+        <activity android:name=".Crocker" />
+        <activity android:name=".TamaAbu" />
+        <activity android:name=".Bintang" />
+        <activity android:name=".Dataran" />
+        <activity android:name=".Kelantan" />
+        <activity android:name=".Lembah" />
+        <activity android:name=".Rajang" />
+        <activity android:name=".Johor" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".TitiwangsaMap"
+            android:label="@string/title_activity_titiwangsa_map" />
+        <activity
+            android:name=".KelantanMap"
+            android:label="@string/title_activity_kelantan_map" />
+        <activity
+            android:name=".LembahMap"
+            android:label="@string/title_activity_lembah_map" />
+        <activity
+            android:name=".RajangMap"
+            android:label="@string/title_activity_rajang_map" />
+        <activity
+            android:name=".JohorMap"
+            android:label="@string/title_activity_johor_map" />
+        <activity
+            android:name=".TahanMap"
+            android:label="@string/title_activity_tahan_map" />
+        <activity
+            android:name=".CrockerMap"
+            android:label="@string/title_activity_crocker_map" />
+        <activity
+            android:name=".TamaabuMap"
+            android:label="@string/title_activity_tamaabu_map" />
+        <activity
+            android:name=".BintangMap"
+            android:label="@string/title_activity_bintang_map" />
+        <activity android:name=".Kedah" />
+        <activity
+            android:name=".KedahMap"
+            android:label="@string/title_activity_kedah_map" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".Register" />
+    </application>
+
+</manifest>

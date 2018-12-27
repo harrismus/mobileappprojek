@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Bentuk Muka Bumi</string>
+    <string name="Banjaran">Banjaran</string>
+    <string name="Banjaran1">Banjaran Titiwangsa</string>
+    <string name="Banjaran2">Banjaran Tahan</string>
+    <string name="Banjaran3">Banjaran Crocker</string>
+    <string name="Banjaran4">Banjaran Tama Abu</string>
+    <string name="Banjaran5">Banjaran Bintang</string>
+
+    <string name="Dataran">Dataran</string>
+    <string name="Dataran1">Dataran Kedah-Perlis</string>
+    <string name="Dataran2">Dataran Lembah Kinta</string>
+    <string name="Dataran3">Delta Kelantan</string>
+    <string name="Dataran4">Delta Rajang</string>
+    <string name="Dataran5">Dataran Johor</string>
+
+
+    <string name="Titiwangsa">Banjaran Titiwangsa</string>
+    <string name="Titiwangsa1">Banjaran tintiwangsa adalah banjaran terpanjang di Semenanjung Malaysia.
+        Ia dikenali sebagai "Banjaran Besar". Ia juga merupakan tulang belakang bagi Semenanjung Malaysia.
+        Terdapat tiga pusat peranginan yang terkenal iaitu Bukit Fraser, Tanah Tinggi Cameron, dan Tanah Tinggi Genting.</string>
+    <string name="Tahan">Banjaran Tahan</string>
+    <string name="Tahan1">Gunung Tahan dengan ketinggian (2187 meter), merupakan puncak tertinggi di Semenanjung Malaysia.
+        Gunung Tahan terletak di Taman Negara dalam negeri Pahang. Bagaimanapun, Gunung Tahan adalah lebih rendah daripada
+        Gunung Kinabalu yang merupakan gunung tertinggi di Malaysia dan Borneo.
+        Gunung ini menjadi titik sempadan negeri Pahang dengan negeri Kelantan.</string>
+    <string name="Crocker">Banjaran Crocker</string>
+    <string name="Crocker1">Taman Banjaran Crocker di Sabah, Malaysia memiliki keluasan 110 kilometer panjang dan 15 kilometer lebar.
+        Taman Banjaran Crocker merupakan rabung dilitupi hutan yang mengunjur dari Gunung Kinabalu sehingga sempadan Sarawak.
+        Ia merupakan kawasan terpelihara dan menjadi tumpuan pencita alam. Terdapat Taman Ranjer Crocker sekitar 13 km atau
+        30 minit pemanduan dari bandar Keningau.</string>
+    <string name="TamaAbu">Banjaran Tama Abu</string>
+    <string name="TamaAbu1">Gunung Tama Abu yang terletak di Banjaran Tama Abu, Sarawak mempunyai ketinggian setinggi 2,113 meter (6,930 kaki).
+        Gunung Tama Abu mempunyai hutan Dipterokarp Bukit, hutan Dipterokarp Atas, hutan Montane, dan Hutan Ericaceous atau hutan gunung.
+        Terdapat banyak flora di gunung ini yang mempunyai nilai perubatan.</string>
+    <string name="Bintang">Banjaran Bintang</string>
+    <string name="Bintang1">Banjaran Bintang terletak di Perak. Di atasnya ada beberapa buah gunung dan bukit seperti Bukit Bokbak (1199 m),
+        Gunung Bintang (1882 m), Gunung Inas (1801 m), Gunung Ulu Jernih (1577 m) dan gunung-gunung dan bukit-bukit lain yang lebih rendah.
+        Banjaran Bintang menjadi legeh sungai antara Sungai Perak dengan Sungai Kinta serta bebarapa batang sungai lain.
+        Terdapat pelbagai air terjun dan kawasan perkelahan di Banjaran Bintang ini seperti Hutan Lipur Sungai Sedim dan Hutan Lipur Bukit Hijau.</string>
+
+    <string name="Kedah">Dataran Kedah-Perlis</string>
+    <string name="Kedah1"> Di kawasan tanah pamah ini terdapat dataran, iaitu di bahagian hilir sungai.
+        Dataran adalah kawasan rendah yang lebih luas. Dataran-dataran yang lebih luas di pantai barat ialah
+        Dataran Kedah, Dataran Perlis, Dataran hilir Sungai Perak, Dataran Pinggir Laut Selangor dan Tanah Rendah Beralun-alun Selatan.</string>
+    <string name="Kelantan">Delta Kelantan</string>
+    <string name="Kelantan1"> Jaluran tanah pamah di sebelah pantai timur Semenanjung Malaysia menganjur dari Kelantan hingga ke Johor.
+        Jaluran pantai timur ini tidak berterusan kerana terpotong-potong oleh kaki bukit Banjaran Pantai Timur.
+        Lebar jaluran tanah pamah ini di antara 10 hingga 45 km. Di kawasan pantai timur terdapat
+        lembah-lembah sungai seperti lembah Sungai Pahang, lembah Sungai Kelantan dan lembah Sungai Terengganu.
+        Dataran yang luar terdapat di Dataran Kelantan, Dataran Terengganu dan Dataran Pahang.</string>
+    <string name="Rajang">Delta Rajang</string>
+    <string name="Rajang1"> Kawasan tanah pamah di bahagian barat Sarawak adalah lebih panjang (650 km).
+        Tanah pamah ini dikenali sebagai Dataran Pinggir Laut Sarawak. Kawasan tanah pamah di sebelah barat daya adalah lebih lebar,
+        khususnya di Delta Rajang. Lebarnya dataran ini kira-kira 80 km. Sungai Rajang yang panjang
+        membentuk lembangan yang luas. Dataran pinggir laut di bahagian barat daya terputus-putus oleh gunung-gunung seperti
+        Gunung Gading dan Gunung Serapi. Di sepanjang pinggir laut terdapat paya, pantai berlumpur dan kadang-kadang berpasir.</string>
+    <string name="Lembah">Dataran Lembah Kinta</string>
+    <string name="Lembah1"> Lembah Kinta terletak di tengah negeri Perak, disaliri oleh Sungai Kinta. Sungai Kinta mengalir
+        dari Gunung Korbu di Ulu Kinta, Tanjung Rambutan hingga ke Kampung Gajah di selatan.
+        Sungai Kinta bertemu dengan Sungai Perak berhampiran dengan Pulau Inderasakti.
+        Lembah Kinta pesat membangun kerana Sungai Kinta banyak terdapat bijih timah dan kemudian ditanam dengan pokok getah.
+        Lembah Kinta berjaya membawa orang Cina dari daerah Kwangtung, China yang diuruskan oleh kongsi gelap Ghee Hin dan Hai San.
+        Kebanyakan mereka berbahasa Hokkien dan Kantonis. Beberapa bandar telah wujud di Lembah Kinta.
+        Antaranya ialah Ipoh , Kampar,Taiping, Gopeng, Batu Gajah, Pusing, Pasir Putih,
+        Papan, Lahat, Menglembu, Jelapang , Tasek, Bercham, Gunung Rapat dan lain-lain.</string>
+    <string name="Johor">Dataran Johor</string>
+    <string name="Johor1"> Dataran Johor mempunyai bukit yang beralun dan bebukit bukau.
+        Kawasan tanah pamah sesuai untuk tanaman padi, kelapa sawit, getah, nanas dan tebu.
+        Dataran Johor juga kebanyakkan mempunyai hutan paya dan kaya dengan tanah laterit.
+        Hasil daripada tanaman getah dan kelapa sawit menjadikan Negara Malaysia sebagai negara pengeksport getah dan kelapa sawit.</string>
+    <string name="title_activity_kedah_map">Map</string>
+    <string name="title_activity_titiwangsa_map">Map</string>
+    <string name="title_activity_kelantan_map">Map</string>
+    <string name="title_activity_lembah_map">Map</string>
+    <string name="title_activity_rajang_map">Map</string>
+    <string name="title_activity_johor_map">Map</string>
+    <string name="title_activity_tahan_map">Map</string>
+    <string name="title_activity_crocker_map">Map</string>
+    <string name="title_activity_tamaabu_map">Map</string>
+    <string name="title_activity_bintang_map">Map</string>
+
+    <string name="question_titiwangsa">Gunung tertinggi bagi Banjaran Titiwangsa adalah Gunung Korbu.</string>
+    <string name="question_tahan">Banjaran Tahan merupakan banjaran tertinggi di Semenanjung Malaysia.</string>
+    <string name="question_crocker">Gunung tertinggi di Banjaran Crocker ialah Gunung Kinabalu dengan ketinggian 4256m</string>
+    <string name="question_kedah">Banjaran Bintang yang berketinggian 1882m menganjur dari Perak ke Selangor</string>
+    <string name="question_abu">Gunung Murud yang berketinggian 2425m terletak di Banjaran Tama Abu, Sarawak</string>
+    <string name="question_dataran">Delta Kelantan dan Dataran Kedah-Perlis merupakan kawasan penanaman padi utama di Malaysia </string>
+    <string name="question_tanah">Tanah pamah seperti Delta Kelantan yang kaya dengan tanah laterit sesuai untuk penanaman padi </string>
+    <string name="question_johor">Dataran Johor yang berbukit bakau, beralun dan berpaya serta kaya dengan tanih laterit sesuai untuk tanaman kelapa sawit, getah dan nanas </string>
+    <string name="question_kinta">Lembah Kinta merupakan kawasan tanah pamah yang penting untuk perlombongan Biji Timah</string>
+    <string name="question_sabah">Delta Rajang dan Delta Baram yang berkeluasan 30 hingga 65 km lebar terletak di Sabah dan kaya dengan tanah aluvium yang sesuai untuk penanaman padi</string>
+
+    <string name="next_button">Seterusnya</string>
+    <string name="correct_toast">Tahniah, anda bijak!</string>
+    <string name="incorrect_toast">Maaf, cuba lagi!</string>
+</resources>
