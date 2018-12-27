@@ -1,22 +1,33 @@
 package com.example.merg.bentukmukabumi;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.EditText;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class PilihanModul extends AppCompatActivity implements View.OnClickListener {
 
-    private FirebaseAuth firebaseAuth;
+    private FirebaseAuth auth;
 
-    private TextView textViewUserEmail;
-    private Button buttonLogout;
+
+    private TextView email;
+    private Button signOut;
+
 
 
     public void gotobelajar (View view){
@@ -33,31 +44,102 @@ public class PilihanModul extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pilihan_modul);
 
-        firebaseAuth = FirebaseAuth.getInstance();
+        auth = FirebaseAuth.getInstance();
+        email = (TextView) findViewById(R.id.useremail);
 
-        //if (firebaseAuth.getCurrentUser() == null);{
-          //  finish();
-          // startActivity(new Intent(this, Login.class));
-        //}
+        final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        setDataToView(user);
 
-        FirebaseUser user = firebaseAuth.getCurrentUser();
+        authListener= new FirebaseAuth.AuthStateListener(){
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                FirebaseUser user = firebaseAuth.getCurrentUser();
+                if (user == null) {
+                    // user auth state is changed - user is null
+                    // launch login activity
+                    startActivity(new Intent(PilihanModul.this, LoginActivity.class));
+                    finish();
+                }
+            }
+        };
+        signOut = (Button) findViewById(R.id.sign_out);
 
-        textViewUserEmail = (TextView) findViewById(R.id.textViewUserEmail);
-        textViewUserEmail.setText("Hai " + user.getEmail() + " Sila pilih modul anda");
-
-        buttonLogout = (Button) findViewById(R.id.buttonLogout);
-
-        buttonLogout.setOnClickListener(this);
+        signOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                signOut();
+            }
+        });
 
     }
-    @Override
-   public void onClick(View view) {
-        if (view == buttonLogout)
-        {
-            firebaseAuth.signOut();
-            finish();
-           //startActivity(new Intent(this, Login.class));
+
+    @SuppressLint("SetTextI18n")
+    private void setDataToView(FirebaseUser user) {
+
+        email.setText("Hai " + user.getEmail());
+
+
+    }
+
+    // this listener will be called when there is change in firebase user session
+    FirebaseAuth.AuthStateListener authListener = new FirebaseAuth.AuthStateListener() {
+        @SuppressLint("SetTextI18n")
+        @Override
+        public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+            FirebaseUser user = firebaseAuth.getCurrentUser();
+            if (user == null) {
+                // user auth state is changed - user is null
+                // launch login activity
+                startActivity(new Intent(PilihanModul.this, LoginActivity.class));
+                finish();
+            } else {
+                setDataToView(user);
+
+            }
         }
+
+
+    };
+
+    public void signOut() {
+        auth.signOut();
+
+// this listener will be called when there is change in firebase user session
+        FirebaseAuth.AuthStateListener authListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                FirebaseUser user = firebaseAuth.getCurrentUser();
+                if (user == null) {
+                    // user auth state is changed - user is null
+                    // launch login activity
+                    startActivity(new Intent(PilihanModul.this, LoginActivity.class));
+                    finish();
+                }
+            }
+        };
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        auth.addAuthStateListener(authListener);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        if (authListener != null) {
+            auth.removeAuthStateListener(authListener);
+        }
+    }
+
+    @Override
+    public void onClick(View v) {
 
     }
 }

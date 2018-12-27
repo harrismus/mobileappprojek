@@ -8,7 +8,7 @@ import android.view.View;
 public class Menu extends AppCompatActivity {
 
     public void gotoregister (View view){
-        Intent intent = new Intent(getApplicationContext(),Register.class);
+        Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
         startActivity(intent);
     }
     @Override
